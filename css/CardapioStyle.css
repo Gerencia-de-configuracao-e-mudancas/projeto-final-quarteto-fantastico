@@ -5,12 +5,15 @@
 }
 
 body{
-    font-family:Arial, sans-serif;
+    font-family: Arial, sans-serif;
     background:#d2b08f;
+    min-height:100vh;
 }
 
+/* Cabeçalho */
+
 header{
-    padding:20px;
+    padding:25px 0;
 }
 
 nav{
@@ -20,35 +23,48 @@ nav{
 nav a{
     text-decoration:none;
     color:white;
-    margin:0 15px;
+    margin:0 20px;
     font-size:18px;
+    font-weight:500;
+    transition:0.3s;
 }
+
+nav a:hover{
+    color:#5c3a21;
+}
+
+/* Conteúdo principal */
 
 .hero{
     display:flex;
-    align-items:center;
     justify-content:space-around;
+    align-items:center;
     min-height:80vh;
+    padding:40px;
 }
 
 .texto{
-    width:40%;
+    width:45%;
 }
 
 .texto h1{
-    font-size:60px;
+    font-size:64px;
     color:white;
+    margin-bottom:15px;
+    text-shadow:2px 2px 5px rgba(0,0,0,0.15);
 }
 
 .texto p{
-    margin-top:20px;
     font-size:20px;
     color:white;
+    line-height:1.6;
 }
 
-.imagem img{
-    width:400px;
+.subtitulo{
+    margin:20px 0 30px;
 }
+
+/* Cardápio */
 
 .menu{
     margin-top:30px;
@@ -57,23 +73,30 @@ nav a{
 .item{
     display:flex;
     justify-content:space-between;
-    padding:10px 0;
-    color:white;
+    align-items:center;
+    padding:12px 0;
     font-size:18px;
-}
-
-.item{
+    color:white;
     border-bottom:1px solid rgba(255,255,255,0.3);
+    transition:0.3s;
 }
 
 .item:hover{
     background:rgba(255,255,255,0.1);
+    padding-left:10px;
 }
 
-.texto h1{
-    margin-bottom:15px;
-}
+/* Imagem */
 
 .imagem img{
-    filter:drop-shadow(0 0 20px rgba(0,0,0,0.2));
+    width:450px;
+    max-width:100%;
+    filter:drop-shadow(0 10px 20px rgba(0,0,0,0.2));
+}
+
+.subtitulo{
+    margin:20px 0 30px;
+    color:white;
+    font-size:18px;
+    line-height:1.6;
 }
