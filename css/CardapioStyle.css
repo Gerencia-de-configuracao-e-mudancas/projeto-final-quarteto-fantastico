@@ -49,3 +49,15 @@ nav a{
 .imagem img{
     width:400px;
 }
+
+.menu{
+    margin-top:30px;
+}
+
+.item{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 0;
+    color:white;
+    font-size:18px;
+}
