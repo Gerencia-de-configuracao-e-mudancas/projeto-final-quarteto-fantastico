@@ -3,76 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio - Quarteto</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Cardápio - Quarteto </title>
+    <link rel="stylesheet" href="css/CardapioStyle.css">
 </head>
 <body>
 
 <header>
+    <div class="logo">☕ Quarteto </div>
     <nav>
         <a href="index.html">Home</a>
         <a href="sobre.html">Sobre</a>
-        <a href="cardapio.html">Cardápio</a>
+        <a href="cardapio.html" class="ativo">Cardápio</a>
         <a href="contato.html">Contato</a>
     </nav>
 </header>
 
-<section class="hero">
+<main class="tela-dividida">
+    
+    <section class="lado-cardapio">
+        <div class="conteudo-cardapio">
+            <span class="destaque">BEM-VINDO AO AROMA CAFÉ</span>
+            <h1>Coffee Menu</h1>
+            <div class="divisor-menu"></div>
 
-    <div class="texto">
-
-        <h1>Nosso Cardápio</h1>
-
-        <p>
-            Conheça nossas bebidas, lanches e sobremesas
-            preparadas com ingredientes selecionados.
-        </p>
-
-        <p class="subtitulo">
-            Cafés especiais, lanches artesanais e sobremesas preparadas com carinho.
-        </p>
-
-        <div class="menu">
-
+            <h2>☕ Cafés</h2>
             <div class="item">
-                <span>Café Expresso</span>
-                <span>R$ 5,00</span>
+                <span class="nome">Café Expresso</span>
+                <span class="linha-pontilhada"></span>
+                <span class="preco">R$ 5,00</span>
+            </div>
+            <div class="item">
+                <span class="nome">Cappuccino</span>
+                <span class="linha-pontilhada"></span>
+                <span class="preco">R$ 8,00</span>
+            </div>
+            <div class="item">
+                <span class="nome">Latte</span>
+                <span class="linha-pontilhada"></span>
+                <span class="preco">R$ 7,00</span>
+            </div>
+            <div class="item">
+                <span class="nome">Macchiato</span>
+                <span class="linha-pontilhada"></span>
+                <span class="preco">R$ 7,50</span>
             </div>
 
+            <h2>🥐 Lanches</h2>
             <div class="item">
-                <span>Cappuccino</span>
-                <span>R$ 8,00</span>
+                <span class="nome">Pão de Queijo</span>
+                <span class="linha-pontilhada"></span>
+                <span class="preco">R$ 4,50</span>
+            </div>
+            <div class="item">
+                <span class="nome">Croissant</span>
+                <span class="linha-pontilhada"></span>
+                <span class="preco">R$ 7,50</span>
             </div>
 
+            <h2>🍰 Sobremesas</h2>
             <div class="item">
-                <span>Latte</span>
-                <span>R$ 7,00</span>
+                <span class="nome">Brownie</span>
+                <span class="linha-pontilhada"></span>
+                <span class="preco">R$ 6,50</span>
             </div>
-
             <div class="item">
-                <span>Pão de Queijo</span>
-                <span>R$ 4,50</span>
+                <span class="nome">Cheesecake</span>
+                <span class="linha-pontilhada"></span>
+                <span class="preco">R$ 10,00</span>
             </div>
-
-            <div class="item">
-                <span>Brownie</span>
-                <span>R$ 6,50</span>
-            </div>
-
-            <div class="item">
-                <span>Cheesecake</span>
-                <span>R$ 10,00</span>
-            </div>
-
         </div>
+    </section>
 
-    </div>
+    <section class="lado-imagem">
+        </section>
 
-    <div class="imagem">
-        <img src="img/cafe.jpg" alt="Xícara de café">
-    </div>
-
-</section>
+</main>
 
 </body>
 </html>
