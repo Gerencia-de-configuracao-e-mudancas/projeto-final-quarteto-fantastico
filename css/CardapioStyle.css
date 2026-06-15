@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#d2b08f;
+}
+
+header{
+    padding:20px;
+}
+
+nav{
+    text-align:center;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:0 15px;
+    font-size:18px;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    min-height:80vh;
+}
+
+.texto{
+    width:40%;
+}
+
+.texto h1{
+    font-size:60px;
+    color:white;
+}
+
+.texto p{
+    margin-top:20px;
+    font-size:20px;
+    color:white;
+}
+
+.imagem img{
+    width:400px;
+}
