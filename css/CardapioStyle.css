@@ -1,98 +1,139 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+/* CONFIGURAÇÕES GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, sans-serif;
-    background:#d2b08f;
-    min-height:100vh;
+    background-color: #fdfbf7;
+    color: #4a3b32;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Cabeçalho */
-
-header{
-    padding:25px 0;
+/* HEADER / MENU DE NAVEGAÇÃO */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eae5df;
 }
 
-nav{
-    text-align:center;
+.logo {
+    color: #6b4f38;
+    font-size: 26px;
+    font-weight: bold;
 }
 
-nav a{
-    text-decoration:none;
-    color:white;
-    margin:0 20px;
-    font-size:18px;
-    font-weight:500;
-    transition:0.3s;
+nav a {
+    color: #8c7662;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
 }
 
-nav a:hover{
-    color:#5c3a21;
+nav a:hover, .ativo {
+    color: #6b4f38;
+    border-bottom: 2px solid #6b4f38;
 }
 
-/* Conteúdo principal */
-
-.hero{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    min-height:80vh;
-    padding:40px;
+/* ESTRUTURA DE TELA DIVIDIDA (HORIZONTAL) */
+.tela-dividida {
+    display: flex;
+    flex: 1; 
 }
 
-.texto{
-    width:45%;
+/* LADO DO CARDÁPIO */
+.lado-cardapio {
+    width: 50%;
+    background-color: #1a1512; 
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
 }
 
-.texto h1{
-    font-size:64px;
-    color:white;
-    margin-bottom:15px;
-    text-shadow:2px 2px 5px rgba(0,0,0,0.15);
+.conteudo-cardapio {
+    width: 100%;
+    max-width: 450px;
 }
 
-.texto p{
-    font-size:20px;
-    color:white;
-    line-height:1.6;
+.destaque {
+    color: #b8926a;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
 }
 
-.subtitulo{
-    margin:20px 0 30px;
-    color:white;
-    font-size:18px;
-    line-height:1.6;
+h1 {
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 500;
 }
 
-/* Cardápio */
-
-.menu{
-    margin-top:30px;
+.divisor-menu {
+    width: 60px;
+    height: 2px;
+    background-color: #b8926a;
+    margin: 15px 0 35px 0;
 }
 
-.item{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:12px 0;
-    font-size:18px;
-    color:white;
-    border-bottom:1px solid rgba(255,255,255,0.3);
-    transition:0.3s;
+.conteudo-cardapio h2 {
+    color: #b8926a;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
-.item:hover{
-    background:rgba(255,255,255,0.1);
-    padding-left:10px;
+/* ITENS DO MENU */
+.item {
+    display: table;
+    width: 100%;
+    margin-bottom: 12px;
+    font-size: 16px;
+    transition: transform 0.2s ease;
 }
 
-/* Imagem */
+.item:hover {
+    transform: translateX(4px);
+}
 
-.imagem img{
-    width:450px;
-    max-width:100%;
-    filter:drop-shadow(0 10px 20px rgba(0,0,0,0.2));
+.nome {
+    display: table-cell;
+    width: auto;
+    white-space: nowrap;
+    color: #e5dfda;
+}
+
+.linha-pontilhada {
+    display: table-cell;
+    width: 100%;
+    border-bottom: 1px dotted #4a3b32;
+}
+
+.preco {
+    display: table-cell;
+    width: auto;
+    white-space: nowrap;
+    padding-left: 8px;
+    font-weight: bold;
+    color: #b8926a;
+}
+
+/* LADO DA IMAGEM */
+.lado-imagem {
+    width: 50%;
+    background-image: url('../img/cafe.jpg');
+    background-size: cover;
+    background-position: center; 
 }
