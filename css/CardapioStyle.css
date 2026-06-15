@@ -61,3 +61,19 @@ nav a{
     color:white;
     font-size:18px;
 }
+
+.item{
+    border-bottom:1px solid rgba(255,255,255,0.3);
+}
+
+.item:hover{
+    background:rgba(255,255,255,0.1);
+}
+
+.texto h1{
+    margin-bottom:15px;
+}
+
+.imagem img{
+    filter:drop-shadow(0 0 20px rgba(0,0,0,0.2));
+}
