@@ -62,6 +62,9 @@ nav a:hover{
 
 .subtitulo{
     margin:20px 0 30px;
+    color:white;
+    font-size:18px;
+    line-height:1.6;
 }
 
 /* Cardápio */
@@ -92,11 +95,4 @@ nav a:hover{
     width:450px;
     max-width:100%;
     filter:drop-shadow(0 10px 20px rgba(0,0,0,0.2));
-}
-
-.subtitulo{
-    margin:20px 0 30px;
-    color:white;
-    font-size:18px;
-    line-height:1.6;
 }
