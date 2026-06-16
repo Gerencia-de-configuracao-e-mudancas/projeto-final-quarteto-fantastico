@@ -335,3 +335,55 @@ footer {
     margin-top: 8px;
     letter-spacing: 1px;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    nav a {
+        margin-left: 15px;
+    }
+
+    .hero-sobre {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .cards-valores {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tela-dividida {
+        flex-direction: column;
+    }
+
+    .lado-escuro, .lado-claro {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .cards-equipe {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .secao-valores, .secao-equipe, .cta {
+        padding: 40px 20px;
+    }
+}
+@media (max-width: 480px) {
+    .cards-valores, .cards-equipe {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-sobre h1 {
+        font-size: 28px;
+    }
+}
