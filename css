@@ -127,6 +127,6 @@ h1 {
         width: 100%;
     }
     .lado-imagem-home {
-        height: 350px; /* Garante que a foto apareça bem no celular */
+        height: 350px;
     }
 }
