@@ -1,1 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y6NYSoec)
+☕ Projeto Final — Cafeteria Quarteto
+👥 Integrantes do Grupo:
+* Bruno Jallon Moreira Alves
+* Esaú Alves Muniz
+* Kauan Amorim Cordeiro
+* Ryan Lucas Cesário da Silva
+
+🔗 Links do Projeto:
+* Repositório no GitHub: [https://github.com/Gerencia-de-configuracao-e-mudancas/projeto-final-quarteto-fantastico](https://github.com/Gerencia-de-configuracao-e-mudancas/projeto-final-quarteto-fantastico)
+* Site Publicado (GitHub Pages): [https://gerencia-de-configuracao-e-mudancas.github.io/projeto-final-quarteto-fantastico/](https://gerencia-de-configuracao-e-mudancas.github.io/projeto-final-quarteto-fantastico/)
