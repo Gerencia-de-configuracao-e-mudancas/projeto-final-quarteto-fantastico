@@ -47,7 +47,7 @@ body {
     color: #4a3429;
     border-bottom: 2px solid #4a3429; /* Linha marrom embaixo do link ativo */
 }
-/* Layout Duas Colunas (Inspirado no Cardápio) */
+
 .contato-container {
     display: flex;
     min-height: calc(100vh - 79px - 100px); /* Ocupa a tela inteira tirando header/footer */
@@ -73,4 +73,73 @@ body {
     padding: 60px;
     display: flex;
     align-items: flex-end;
+}
+
+.subtitulo {
+    color: #c68953; 
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.contato-titulo h2 {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.linha-decorativa {
+    width: 60px;
+    border: 1px solid #c68953;
+    margin: 15px 0 35px 0;
+}
+
+/* Formulário */
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.campo-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo-grupo label {
+    color: #c68953;
+    font-size: 14px;
+}
+
+.campo-grupo input, .campo-grupo textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #4a3a32;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.campo-grupo input:focus, .campo-grupo textarea:focus {
+    border-bottom: 1px solid #c68953;
+}
+
+.botao-enviar {
+    background-color: #c68953;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.botao-enviar:hover {
+    background-color: #a46f40;
 }
