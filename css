@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #fdfbf7;
@@ -11,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -18,13 +20,16 @@ header {
     padding: 20px 80px;
     background-color: #ffffff;
     border-bottom: 1px solid #eae5df;
-    height: 75px;
+
 }
+
 .logo {
     color: #6b4f38;
     font-size: 26px;
     font-weight: bold;
+
 }
+
 nav a {
     color: #8c7662;
     text-decoration: none;
@@ -32,15 +37,21 @@ nav a {
     font-size: 16px;
     font-weight: 600;
     padding-bottom: 5px;
+
 }
+
 nav a:hover, .ativo {
     color: #6b4f38;
     border-bottom: 2px solid #6b4f38;
+
 }
+
 .tela-dividida {
     display: flex;
-    min-height: calc(100vh - 150px); 
+    flex: 1; 
+
 }
+
 .lado-conteudo {
     width: 50%;
     background-color: #1a1512; 
@@ -49,11 +60,15 @@ nav a:hover, .ativo {
     justify-content: center;
     align-items: center;
     padding: 60px 20px;
+
 }
+
 .conteudo-home {
     width: 100%;
     max-width: 450px;
+
 }
+
 .destaque {
     color: #b8926a;
     font-weight: bold;
@@ -61,46 +76,62 @@ nav a:hover, .ativo {
     font-size: 12px;
     display: block;
     margin-bottom: 5px;
+
 }
+
 h1 {
     font-size: 42px;
     color: #ffffff;
     font-weight: 500;
+
 }
+
 .divisor-menu {
     width: 60px;
     height: 2px;
     background-color: #b8926a;
     margin: 15px 0 25px 0;
+
 }
+
 .subtitulo-home {
     color: #b8926a;
     font-size: 22px;
     font-weight: normal;
     margin-bottom: 35px;
+
 }
+
 .lista-diferenciais {
     display: flex;
     flex-direction: column;
     gap: 25px;
+
 }
+
 .diferencial-item h3 {
     color: #b8926a;
     font-size: 18px;
     margin-bottom: 6px;
+
 }
+
 .diferencial-item p {
     color: #bdae9f;
     font-size: 14px;
     line-height: 1.4;
+
 }
+
 .lado-imagem-home {
     width: 50%;
     background-image: url('cafe.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
+
 }
+
 .rodape {
     background-color: #fdfbf7;
     color: #4a3b32;
@@ -108,32 +139,43 @@ h1 {
     padding: 20px;
     font-size: 14px;
     border-top: 1px solid #eae5df;
-    height: 75px;
+
 }
+
 .rodape p {
     margin: 4px 0;
+
 }
+
 @media (max-width: 768px) {
+
     header {
         flex-direction: column;
         padding: 20px;
         gap: 15px;
-        height: auto;
+
     }
+
     nav a {
         margin: 0 10px;
+
     }
+
     .tela-dividida {
         flex-direction: column;
-        min-height: auto;
+
     }
+
     .lado-conteudo, .lado-imagem-home {
         width: 100%;
+
     }
+
     .lado-imagem-home {
         height: 350px;
+
     }
-    .rodape {
-        height: auto;
+
+}
     }
 }
