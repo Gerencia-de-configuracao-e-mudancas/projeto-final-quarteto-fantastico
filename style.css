@@ -143,3 +143,57 @@ body {
 .botao-enviar:hover {
     background-color: #a46f40;
 }
+
+.informacoes {
+    background-color: rgba(26, 21, 18, 0.95);
+    padding: 30px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    color: #ffffff;
+}
+
+.informacoes h3 {
+    color: #c68953;
+    margin-bottom: 15px;
+}
+
+.informacoes ul {
+    list-style: none;
+}
+
+.informacoes li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.informacoes svg {
+    color: #c68953;
+    flex-shrink: 0;
+}
+
+.informacoes a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.informacoes a:hover {
+    text-decoration: underline;
+}
+
+
+.rodape-cafeteria {
+    background-color: #1a1512;
+    color: #777;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 13px;
+    border-top: 1px solid #2a201a;
+}
+
+.tradicao {
+    margin-bottom: 8px;
+}
