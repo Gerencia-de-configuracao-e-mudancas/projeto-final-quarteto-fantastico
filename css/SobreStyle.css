@@ -328,3 +328,10 @@ footer {
     font-size: 13px;
     border-top: 1px solid #2a2018;
 }
+
+.endereco {
+    color: #b8926a;
+    font-size: 14px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
