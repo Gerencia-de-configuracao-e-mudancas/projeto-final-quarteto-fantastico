@@ -21,6 +21,10 @@ header {
     background-color: #ffffff;
     border-bottom: 1px solid #eae5df;
 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
 }
 
 .logo {
@@ -125,7 +129,7 @@ h1 {
 
 .lado-imagem-home {
     width: 50%;
-    background-image: url('cafe.jpg');
+    background-image: url('../img/cafe-fundo.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -177,5 +181,4 @@ h1 {
     }
 
 }
-    }
-}
+    
