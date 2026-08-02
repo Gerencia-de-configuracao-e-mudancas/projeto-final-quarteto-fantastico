@@ -22,6 +22,10 @@ header {
     padding: 20px 80px;
     background-color: #ffffff;
     border-bottom: 1px solid #eae5df;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
